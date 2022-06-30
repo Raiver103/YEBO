@@ -376,8 +376,8 @@ body {
 
 .advantages__first-img {
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 66%;
-          flex: 1 1 66%;
+      -ms-flex: 1 1 66.67%;
+          flex: 1 1 66.67%;
   position: relative;
 }
 
@@ -407,8 +407,8 @@ body {
 
 .advantages__info {
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 33%;
-          flex: 1 1 33%;
+      -ms-flex: 1 1 33.33%;
+          flex: 1 1 33.33%;
 }
 
 @media (max-width: 768px) {
@@ -441,8 +441,8 @@ body {
 
 .advantages__second-img {
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 66%;
-          flex: 1 1 66%;
+      -ms-flex: 1 1 66.67%;
+          flex: 1 1 66.67%;
   position: relative;
 }
 
@@ -600,7 +600,7 @@ body {
 
 .info__description::after {
   content: '';
-  background-color: #ff0000;
+  background-color: #d7d7d7;
   display: block;
   bottom: 0;
   margin: 33px auto 0px;
@@ -629,6 +629,50 @@ body {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.twitter {
+  padding: 120px 0;
+}
+
+.twitter__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.twitter__icon {
+  margin-bottom: 30px;
+}
+
+.twitter__title {
+  margin-bottom: 25px;
+  font-size: 18px;
+  color: #353738;
+  line-height: 1.2;
+  word-spacing: 3px;
+}
+
+.twitter__time {
+  font-size: 16px;
+  color: #848789;
+}
+
+.twitter__info {
+  font-size: 24px;
+  color: #848789;
+  line-height: 1.417;
 }
 
 .start {
